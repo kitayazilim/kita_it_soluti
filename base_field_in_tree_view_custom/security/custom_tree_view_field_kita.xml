@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2024 Kıta Yazılım
+     License LGPLv3 or later (https://www.gnu.org/licenses/lgpl-3.0). -->
+
+<odoo>
+
+    <record model="ir.model.access" id="custom_tree_view_field_kita_access_name">
+        <field name="name">custom.tree.view.field.kita access name</field>
+        <field name="model_id" ref="model_custom_tree_view_field_kita"/>
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+    </record>
+
+</odoo>
